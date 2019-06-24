@@ -2,68 +2,105 @@
 <html lang="en-us">
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Index</title>
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
-  <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
-  <!-- jQuery, javascript file for the Bootstrap's javascript file to function -->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-  <!-- Bootstrap's javascript file that allows the dropdown menu to work -->
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Index</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
+    <!-- jQuery, javascript file for the Bootstrap's javascript file to function -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <!-- Bootstrap's javascript file that allows the dropdown menu to work -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
 </head>
 
 <body>
 
-  <header id="masthead">
-    <div class="container">
-      <a href="index.html" id="logo">Jenny Shin</a>
-      <nav>
-        <a href="index.html">About</a>
-        <a href="resume.html">Resume</a>
-        <a href="portfolio.html">Portfolio</a>
-        <a href="contact.html">Contact</a>
-      </nav>
+    <header id="masthead">
+        <div class="container">
+            <a href="index.html" id="logo">Jenny Shin</a>
+            <nav>
+                <a href="index.html">About</a>
+                <a href="resume.html">Resume</a>
+                <a href="portfolio.html">Portfolio</a>
+                <a href="contact.html">Contact</a>
+            </nav>
+        </div>
+    </header>
+
+    <div id="main-container" class="container">
+        <section class="main-section">
+            <h1>Resume</h1>
+
+            <h2>Experience</h2>
+            <table class="table table-striped">
+                <thead>
+                    <tr>
+                        <th scope="col">Company</th>
+                        <th scope="col">Title</th>
+                        <th scope="col">Years</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th scope="row">SSM Health</th>
+                        <td>Human Capital Management (HCM) Product Specialist<br>
+                            Continuous Quality Improvement (CQI) Project Leader<br>
+                        <br>
+                        <p>Serve as subject matter expert in Human Capital Management (HCM) modules in HR, Payroll, Taxes, Benefits, Time & Attendance, Employee Self Service (ESS) and Manager Self Service (MSS)</p>
+                        <p>Responsible for full HCM software development life cycle from start to finish - gathering requirements, designing, configuring, developing, and implementing functionalities, including system enhancements (fixes, upgrades, patches, etc.) integrations, testing, delivery, as well as data management, reporting and analytics.
+                        </p>
+                        </td>
+                        <td>2008 - Present</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Grainger</th>
+                        <td>Senior Business Systems Analyst</td>
+                        <td>2001 - 2008</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <h2>Education</h2>
+            <table class="table">
+                    <thead>
+                        <tr>
+                            <th scope="col">Institution</th>
+                            <th scope="col">Degree / Certification</th>
+                            <th scope="col">Graduated</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th scope="row">Management and Strategy Institute</th>
+                            <td>Six Sigma Green Belt (SSGB) Certification</td>
+                            <td>2018</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Webster University</th>
+                            <td>Master's in Business Administration (MBA)</td>
+                            <td>2011</td>
+                        </tr>
+                    </tbody>
+                </table>
+<br>
+            <h2>Social Media</h2>
+
+            <img src="assets/images/github.jpg" height=50px width=50px alt="Git"
+                onclick="location.href='https://github.com/jenshin75';">
+
+            <img src="assets/images/linkedin.jpg" height=50px width=50px alt="LinkedIn">
+            <img src="assets/images/facebook.jpg" height=50px width=50px alt="Facebook">
+            <img src="assets/images/twitter.jpg" height=50px width=50px alt="Twitter">
+
+        </section>
+
     </div>
-  </header>
 
-  <div id="main-container" class="container">
-    <section class="main-section">
-      <h1>Resume</h1>
-
-
-    
-
-      <!-- <img src="assets/images/me.jpg" class="auth-image" alt="Jenny Shin"> -->
-
-    <div class="social">
-        <img src="assets/images/github.jpg" height=50px width=50px alt="Git" 
-        onclick="location.href='https://github.com/jenshin75';">
-    </div>
-
-    <div class="social">
-        <img src="assets/images/linkedin.jpg" height=50px width=50px alt="LinkedIn" 
-        onclick="location.href='https://www.linkedin.com/in/jenny-shin-76b8ba121/';">
-    </div>
-
-    <div class="social">
-        <img src="assets/images/facebook.jpg" height=50px width=50px alt="Facebook" 
-        onclick="location.href='https://github.com/jenshin75';">
-    </div>
-    
-    <div class="social">
-        <img src="assets/images/twitter.jpg" height=50px width=50px alt="Twitter" 
-        onclick="location.href='https://www.linkedin.com/in/jenny-shin-76b8ba121/';">
-    </div>
-    </section>
-
-  </div>
-
-  <footer>
-    <div class="container">
-      Copyright &copy; 2019
-    </div>
-  </footer>
+    <footer>
+        <div class="container">
+            Copyright &copy; 2019
+        </div>
+    </footer>
 </body>
 
 </html>
