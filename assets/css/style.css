@@ -114,7 +114,7 @@ h3, h2 {
   padding-bottom: 20px;
   margin-bottom: 15px;
   line-height: 22px;
-  border-bottom: 2px solid #eeeeee;
+  /* border-bottom: 2px solid #eeeeee; */
 }
 
 /* main */
@@ -184,6 +184,10 @@ h3, h2 {
 
 #contact-form li {
   margin-bottom: 10px;
+}
+
+.contact {
+  color: white;
 }
 
 label,
